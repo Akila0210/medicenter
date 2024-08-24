@@ -373,4 +373,101 @@ footer a:hover {
     color: #5c5c5c;
 }
 
+@media (max-width: 1000px){
+
+    .banner_headline{
+        padding-left: 30px;
+    }
+
+    #geral section {
+        padding-left: 20px;
+    }
+
+    aside{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .area_item{
+        padding-left: 5px;
+    }
+
+    .copy{
+        padding-left: 10px;
+    }
+
+
+}
+
+
+@media (max-width: 870px){
+
+        .banner_title{
+            font-size: 15px;
+        }
+        
+        .banner_desc{
+            font-size: 13px;
+        }
+        
+        .banner3_desc span{
+            font-size: 13px;
+        }
+
+        .footer_menu{
+            flex-direction: column;
+        }
+
+        .footer_area{
+            flex-direction: column;
+        }
+
+
+}
+
+@media (max-width: 700px){
+
+    .banner_options{
+        height: 100%;
+        flex-direction: column;
+    }
+
+    #geral .widget_title{
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    .banner_headline h1{
+        font-size: 40px;
+    }
+
+    .banner_headline h2{
+        font-size: 13px;
+    }
+
+    .banner_headline{
+        padding: 15px 0 15px 20px;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .banner_headline{
+        background-image: url('../images/img1.jpg');
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 320px){
+      .widget_body{
+        justify-content: center;
+    }
+}
+
+
 
