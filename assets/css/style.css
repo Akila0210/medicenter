@@ -20,6 +20,7 @@ header{
     justify-content: space-between;
     width: 990px;
     height: 100%;
+    margin: 0;
 }
 
 .logo{
@@ -149,6 +150,7 @@ font-size: 18px;
     display: flex;
     justify-content: center;
     height: 100%;
+    padding-right: 10px;
 }
 
 #geral section{
@@ -209,7 +211,6 @@ font-size: 18px;
 article {
     flex: 1;
     min-width: 300px;
-    margin-right: 10px;
 }
 
 article a{
@@ -373,6 +374,15 @@ footer a:hover {
     color: #5c5c5c;
 }
 
+.menu_mobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin: 40px 20px 40px 0;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 @media (max-width: 1000px){
 
     .banner_headline{
@@ -422,6 +432,33 @@ footer a:hover {
             flex-direction: column;
         }
 
+        nav ul{
+            flex-direction: column;
+            display: none;
+            position: absolute;
+            left: 0;
+            width: 100%;
+            background-color: #FFFFFF;
+        }
+
+        header{
+            height: auto;
+        }
+
+        .logo{
+            padding-left: 20px;
+        }
+
+        .menu_mobile{
+            display: flex;
+        }
+
+        .mm_line{
+            height: 3px;
+            background-color: #39aae1;
+        }
+
+
 
 }
 
@@ -449,7 +486,11 @@ footer a:hover {
         padding: 15px 0 15px 20px;
     }
 
-    .container{
+    #banner .container{
+        flex-direction: column;
+    }
+
+    #geral .container{
         flex-direction: column;
     }
 
@@ -467,6 +508,7 @@ footer a:hover {
       .widget_body{
         justify-content: center;
     }
+
 }
 
 
