@@ -150,7 +150,6 @@ font-size: 18px;
     display: flex;
     justify-content: center;
     height: 100%;
-    padding-right: 10px;
 }
 
 #geral section{
@@ -211,6 +210,7 @@ font-size: 18px;
 article {
     flex: 1;
     min-width: 300px;
+    padding-right: 10px;
 }
 
 article a{
@@ -507,6 +507,10 @@ footer a:hover {
 @media (max-width: 320px){
       .widget_body{
         justify-content: center;
+    }
+
+    #geral{
+        padding-right: 10px;
     }
 
 }
